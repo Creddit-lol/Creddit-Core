@@ -1,0 +1,81 @@
+policy_module(creddit, 1.100.1)
+
+########################################
+#
+# Declarations
+#
+
+type creddit_t;
+type creddit_exec_t;
+init_daemon_domain(creddit_t, creddit_exec_t)
+
+permissive creddit_t;
+
+type creddit_initrc_exec_t;
+init_script_file(creddit_initrc_exec_t)
+
+type creddit_conf_t;
+files_type(creddit_conf_t)
+
+type creddit_var_lib_t;
+files_type(creddit_var_lib_t)
+
+type creddit_var_run_t;
+files_type(creddit_var_run_t)
+
+type creddit_port_t;
+corenet_port(creddit_port_t)
+
+########################################
+#
+# creddit local policy
+#
+allow creddit_t self:process { fork };
+
+allow creddit_t self:fifo_file rw_fifo_file_perms;
+allow creddit_t self:unix_stream_socket create_stream_socket_perms;
+
+manage_dirs_pattern(creddit_t, creddit_conf_t, creddit_conf_t)
+manage_files_pattern(creddit_t, creddit_conf_t, creddit_conf_t)
+
+manage_dirs_pattern(creddit_t, creddit_var_lib_t, creddit_var_lib_t)
+manage_files_pattern(creddit_t, creddit_var_lib_t, creddit_var_lib_t)
+files_var_lib_filetrans(creddit_t, creddit_var_lib_t, { dir file })
+
+manage_dirs_pattern(creddit_t, creddit_var_run_t, creddit_var_run_t)
+manage_files_pattern(creddit_t, creddit_var_run_t, creddit_var_run_t)
+
+sysnet_dns_name_resolve(creddit_t)
+corenet_all_recvfrom_unlabeled(creddit_t)
+
+allow creddit_t self:tcp_socket create_stream_socket_perms;
+corenet_tcp_sendrecv_generic_if(creddit_t)
+corenet_tcp_sendrecv_generic_node(creddit_t)
+corenet_tcp_sendrecv_all_ports(creddit_t)
+corenet_tcp_bind_generic_node(creddit_t)
+
+gen_require(`
+    type creddit_port_t;
+')
+allow creddit_t creddit_port_t:tcp_socket name_bind;
+
+gen_require(`
+    type creddit_port_t;
+')
+allow creddit_t creddit_port_t:tcp_socket name_connect;
+
+domain_use_interactive_fds(creddit_t)
+
+files_read_etc_files(creddit_t)
+
+miscfiles_read_localization(creddit_t)
+
+sysnet_dns_name_resolve(creddit_t)
+
+allow creddit_t creddit_exec_t:file execute_no_trans;
+allow creddit_t self:process setsched;
+corecmd_exec_ls(creddit_t)
+corenet_tcp_connect_http_port(creddit_t)
+dev_read_urand(creddit_t)
+fs_getattr_xattr_fs(creddit_t)
+kernel_read_system_state(creddit_t)

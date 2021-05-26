@@ -1,0 +1,15 @@
+QT_TS = \
+  qt/locale/creddit_de.ts \
+  qt/locale/creddit_en.ts \
+  qt/locale/creddit_en_US.ts \
+  qt/locale/creddit_es.ts \
+  qt/locale/creddit_es_ES.ts \
+  qt/locale/creddit_fr_FR.ts \
+  qt/locale/creddit_hr_HR.ts \
+  qt/locale/creddit_it.ts \
+  qt/locale/creddit_ko_KR.ts \
+  qt/locale/creddit_nl.ts \
+  qt/locale/creddit_pl.ts \
+  qt/locale/creddit_ru.ts \
+  qt/locale/creddit_tr.ts \
+  qt/locale/creddit_zh_CN.ts

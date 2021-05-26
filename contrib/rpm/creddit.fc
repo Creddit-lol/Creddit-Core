@@ -1,0 +1,8 @@
+/usr/bin/creddit-cli		--	gen_context(system_u:object_r:creddit_exec_t,s0)
+/usr/sbin/credditd		--	gen_context(system_u:object_r:creddit_exec_t,s0)
+/usr/lib(64)?/creddit/credditd		--	gen_context(system_u:object_r:creddit_exec_t,s0)
+
+/etc/creddit(/.*)?		gen_context(system_u:object_r:creddit_conf_t,s0)
+/var/lib/creddit(/.*)?		gen_context(system_u:object_r:creddit_var_lib_t,s0)
+
+(/var)?/run/credditd(/.*)?   gen_context(system_u:object_r:creddit_var_run_t,s0)

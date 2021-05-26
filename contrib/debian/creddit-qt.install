@@ -1,0 +1,6 @@
+usr/local/bin/creddit-qt usr/bin
+share/pixmaps/creddit32.xpm usr/share/pixmaps
+share/pixmaps/creddit16.xpm usr/share/pixmaps
+share/pixmaps/creddit128.png usr/share/pixmaps
+debian/creddit-qt.desktop usr/share/applications
+debian/creddit-qt.protocol usr/share/kde4/services/

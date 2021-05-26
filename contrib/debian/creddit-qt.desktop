@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Creddit Core
+Comment=CREDD P2P Cryptocurrency
+Comment[fr]=CREDD, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CREDD, eşten eşe kriptografik sanal para birimi
+Exec=creddit-qt %u
+Terminal=false
+Type=Application
+Icon=creddit128
+MimeType=x-scheme-handler/creddit;
+Categories=Office;Finance;
+StartupWMClass=Pivx-qt
