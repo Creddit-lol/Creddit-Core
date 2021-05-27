@@ -142,6 +142,8 @@ cmake-build-debug
 
 moc_*
 *.tmp
+configure~
+.vscode
 #build*
 #credditd.*
 credditd-new-gui.*

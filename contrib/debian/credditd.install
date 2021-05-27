@@ -1,0 +1,3 @@
+usr/local/bin/credditd usr/bin
+usr/local/bin/creddit-cli usr/bin
+debian/examples/creddit.conf etc/creddit
