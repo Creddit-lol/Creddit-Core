@@ -73,7 +73,7 @@ src/qt/test/moc*.cpp
 *.trs
 *.dmg
 
-*.json.h
+#*.json.h
 *.raw.h
 
 # Only ignore unexpected patches
@@ -136,15 +136,13 @@ cache/*
 .project
 /doc/doxygen/
 /nbproject/
-libbitcoinconsensus.pc
 .idea
 CMakeLists.txt
 cmake-build-debug
 
 moc_*
 *.tmp
-ui_*
-build*
-credditd.*
+#build*
+#credditd.*
 credditd-new-gui.*
 /cov-int/
