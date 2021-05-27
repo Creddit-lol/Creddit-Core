@@ -144,6 +144,8 @@ moc_*
 *.tmp
 configure~
 .vscode
+ui_*
+*.json.h
 #build*
 #credditd.*
 credditd-new-gui.*
