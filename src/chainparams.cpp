@@ -117,7 +117,7 @@ public:
         consensus.powLimit   = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.posLimitV1 = uint256S("0x000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.posLimitV2 = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nBudgetCycleBlocks = 43200;       // approx. 1 every 30 days
+        consensus.nBudgetCycleBlocks = 42069;       // approx. 1 every 27 days
         consensus.nBudgetFeeConfirmations = 6;      // Number of confirmations for the finalization fee
         consensus.nCoinbaseMaturity = 100;
         consensus.nFutureTimeDriftPoW = 7200;
@@ -172,16 +172,16 @@ public:
                 Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
         
         // Block at which PoW Stops and PoS starts.
-        consensus.vUpgrades[Consensus::UPGRADE_POS].nActivationHeight           = 10000;
+        consensus.vUpgrades[Consensus::UPGRADE_POS].nActivationHeight           = 1000;
 
-        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight        = 15000;
-        consensus.vUpgrades[Consensus::UPGRADE_ZC].nActivationHeight            = 20000;
-        consensus.vUpgrades[Consensus::UPGRADE_ZC_V2].nActivationHeight         = 20000;
-        consensus.vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight         = 20000;
-        consensus.vUpgrades[Consensus::UPGRADE_ZC_PUBLIC].nActivationHeight     = 20000;
-        consensus.vUpgrades[Consensus::UPGRADE_V3_4].nActivationHeight          = 20000;
-        consensus.vUpgrades[Consensus::UPGRADE_V4_0].nActivationHeight          = 20000;
-        consensus.vUpgrades[Consensus::UPGRADE_V5_0].nActivationHeight          = 20000;
+        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight        = 1500;
+        consensus.vUpgrades[Consensus::UPGRADE_ZC].nActivationHeight            = 2500;
+        consensus.vUpgrades[Consensus::UPGRADE_ZC_V2].nActivationHeight         = 2500;
+        consensus.vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight         = 2500;
+        consensus.vUpgrades[Consensus::UPGRADE_ZC_PUBLIC].nActivationHeight     = 2500;
+        consensus.vUpgrades[Consensus::UPGRADE_V3_4].nActivationHeight          = 2500;
+        consensus.vUpgrades[Consensus::UPGRADE_V4_0].nActivationHeight          = 2500;
+        consensus.vUpgrades[Consensus::UPGRADE_V5_0].nActivationHeight          = 2500;
         consensus.vUpgrades[Consensus::UPGRADE_V6_0].nActivationHeight =
                 Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
 
