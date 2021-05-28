@@ -332,7 +332,7 @@ public:
         pchMessageStart[1] = 0xe6;
         pchMessageStart[2] = 0xd5;
         pchMessageStart[3] = 0xca;
-        nDefaultPort = 420691;
+        nDefaultPort = 42169;
 
         // nodes with support for servicebits filtering should be at the top
         vSeeds.emplace_back("fuzzbawls.pw", "creddit-testnet.seed.fuzzbawls.pw", true);
