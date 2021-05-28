@@ -862,7 +862,7 @@ CAmount GetBlockValue(int nHeight)
 {
     const int posActivation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_POS].nActivationHeight;
 
-    if (nHeight < posActivation) return 24696969 * COIN;
+    if (nHeight < posActivation) return 2469696 * COIN;
     
     return 0.00001 * COIN;
 }
