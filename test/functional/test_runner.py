@@ -10,7 +10,7 @@ forward all unrecognized arguments onto the individual test scripts.
 Functional tests are disabled on Windows by default. Use --force to run them anyway.
 
 For a description of arguments recognized by test scripts, see
-`test/functional/test_framework/test_framework.py:PivxTestFramework.main`.
+`test/functional/test_framework/test_framework.py:CredditTestFramework.main`.
 
 """
 
@@ -142,6 +142,7 @@ BASE_SCRIPTS= [
 TIERTWO_SCRIPTS = [
     # Longest test should go first, to favor running tests in parallel
     'tiertwo_governance_sync_basic.py',
+    'tiertwo_mn_compatibility.py',
     'tiertwo_masternode_activation.py',
     'tiertwo_masternode_ping.py',
 ]

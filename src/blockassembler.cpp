@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2021 The Creddit Core developers
+// Copyright (c) 2021 The CREDD Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
@@ -111,7 +111,7 @@ bool SolveProofOfStake(CBlock* pblock, CBlockIndex* pindexPrev, CWallet* pwallet
     return true;
 }
 
-bool CreateCoinbaseTx(CBlock* pblock, const CScript& scriptPubKeyIn, CBlockIndex* pindexPrev)
+CMutableTransaction CreateCoinbaseTx(const CScript& scriptPubKeyIn, CBlockIndex* pindexPrev)
 {
     assert(pindexPrev);
     const int nHeight = pindexPrev->nHeight + 1;
@@ -128,7 +128,12 @@ bool CreateCoinbaseTx(CBlock* pblock, const CScript& scriptPubKeyIn, CBlockIndex
         txCoinbase.vout[0].nValue = GetBlockValue(nHeight);
     }
 
-    pblock->vtx.emplace_back(MakeTransactionRef(txCoinbase));
+    return txCoinbase;
+}
+
+bool CreateCoinbaseTx(CBlock* pblock, const CScript& scriptPubKeyIn, CBlockIndex* pindexPrev)
+{
+    pblock->vtx.emplace_back(MakeTransactionRef(CreateCoinbaseTx(scriptPubKeyIn, pindexPrev)));
     return true;
 }
 
@@ -165,7 +170,8 @@ void BlockAssembler::resetBlock()
 std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& scriptPubKeyIn,
                                                CWallet* pwallet,
                                                bool fProofOfStake,
-                                               std::vector<CStakeableOutput>* availableCoins)
+                                               std::vector<CStakeableOutput>* availableCoins,
+                                               bool fNoMempoolTx)
 {
     resetBlock();
 
@@ -194,7 +200,7 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& sc
         return nullptr;
     }
 
-    {
+    if (!fNoMempoolTx) {
         // Add transactions from mempool
         LOCK2(cs_main,mempool.cs);
         addPriorityTxs();

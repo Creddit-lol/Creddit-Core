@@ -1129,16 +1129,16 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
         <translation>verzija</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Creddit Core</source>
-        <translation>O Creddit Core-u</translation>
+        <source>About CREDD Core</source>
+        <translation>O CREDD Core-u</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1192,16 +1192,16 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Creddit Core.</source>
-        <translation>Dobrodošli u Creddit Core.</translation>
+        <source>Welcome to CREDD Core.</source>
+        <translation>Dobrodošli u CREDD Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Creddit Core will store its data.</source>
-        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će Creddit Core pohraniti svoje podatke.</translation>
+        <source>As this is the first time the program is launched, you can choose where CREDD Core will store its data.</source>
+        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će CREDD Core pohraniti svoje podatke.</translation>
     </message>
     <message>
-        <source>Creddit Core will download and store a copy of the CREDD block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Creddit Core preuzima i pohranjuje kopiju CREDD blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
+        <source>CREDD Core will download and store a copy of the CREDD block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>CREDD Core preuzima i pohranjuje kopiju CREDD blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1220,8 +1220,8 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
         <translation>OK</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2048,8 +2048,8 @@ https://www.transifex.com/creddit-project/creddit-project-translations</translat
 <context>
     <name>CREDDGUI</name>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2076,7 +2076,7 @@ https://www.transifex.com/creddit-project/creddit-project-translations</translat
         <translation>Napusti aplikaciju</translation>
     </message>
     <message>
-        <source>Creddit Core client</source>
+        <source>CREDD Core client</source>
         <translation>CREDDIX Core Klijent</translation>
     </message>
     <message>
@@ -2285,8 +2285,8 @@ Adresa: %4
         <translation>Dogodila se fatalna pogreška. CREDD ne može sigurno nastaviti i izaći će.</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2305,8 +2305,8 @@ Adresa: %4
         <translation>Greška pri čitanju masternode konfiguracijske datoteke: %1</translation>
     </message>
     <message>
-        <source>Creddit Core didn't yet exit safely...</source>
-        <translation>Creddit Core nije ugašen sigurno...</translation>
+        <source>CREDD Core didn't yet exit safely...</source>
+        <translation>CREDD Core nije ugašen sigurno...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -4139,7 +4139,7 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Masternode je računalo koje pokreće full node Creddit Core novčanik sa
+Masternode je računalo koje pokreće full node CREDD Core novčanik sa
 zahtjevanih 10,000 CREDD-a osiguranog zaloga da pruži dodatne usluge
 mreži, i zauzvrat redovito primi dio nagrade blokova.
 Te usluge uključuju:
@@ -4970,8 +4970,8 @@ Jeste li sigurni?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Creddit Core is shutting down...</source>
-        <translation>Creddit Core se zatvara...</translation>
+        <source>CREDD Core is shutting down...</source>
+        <translation>CREDD Core se zatvara...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -5000,8 +5000,8 @@ Jeste li sigurni?
         <translation>Učitavanje...</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
 </context>
 <context>
@@ -5639,7 +5639,7 @@ Odaberite manje ulaza pomoću Upravljanja novčićima.</translation>
     </message>
     <message>
         <source>Welcome to
-Creddit Core Wallet</source>
+CREDD Core Wallet</source>
         <translation>Dobrodošli u
 CREDD temeljni novčanik</translation>
     </message>
@@ -5687,8 +5687,8 @@ CREDD temeljni novčanik</translation>
         <translation>Pridržavajte se na navedenu adresu da biste slušali veze JSON-RPC. Koristite [host]: port notation za IPv6. Ova se opcija može odrediti više puta (zadano: vezati se na sva sučelja)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Creddit Core is probably already running.</source>
-        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. Creddit Core vjerojatno već radi.</translation>
+        <source>Cannot obtain a lock on data directory %s. CREDD Core is probably already running.</source>
+        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. CREDD Core vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5835,8 +5835,8 @@ CREDD temeljni novčanik</translation>
         <translation>Ukupna duljina teksta mrežne verzije (%i) prelazi maksimalnu duljinu (%i). Smanjite broj ili veličinu uacommentsa.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Creddit Core is probably already running.</source>
-        <translation>Nije moguće vezati se na %s na ovom računalu. Creddit Core vjerojatno već radi.</translation>
+        <source>Unable to bind to %s on this computer. CREDD Core is probably already running.</source>
+        <translation>Nije moguće vezati se na %s na ovom računalu. CREDD Core vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5851,8 +5851,8 @@ CREDD temeljni novčanik</translation>
         <translation>Upozorenje: -paytxfee je vrlo visoka! To je transakcijska naknada koju ćete platiti ako šaljete transakciju.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Creddit Core will not work properly.</source>
-        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Creddit Core neće raditi ispravno.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong CREDD Core will not work properly.</source>
+        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, CREDD Core neće raditi ispravno.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5923,8 +5923,8 @@ CREDD temeljni novčanik</translation>
         <translation>Autorska prava (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Creddit Core Developers</source>
-        <translation>Autorska prava (C) 2015-%i The Creddit Core Developers</translation>
+        <source>Copyright (C) 2015-%i The CREDD Core Developers</source>
+        <translation>Autorska prava (C) 2015-%i The CREDD Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -6044,8 +6044,8 @@ CREDD temeljni novčanik</translation>
         <translation>Informacije</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Creddit Core is shutting down.</source>
-        <translation>Provjera ispravnosti inicijalizacije nije uspjela. Creddit Core se zatvara.</translation>
+        <source>Initialization sanity check failed. CREDD Core is shutting down.</source>
+        <translation>Provjera ispravnosti inicijalizacije nije uspjela. CREDD Core se zatvara.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -6176,8 +6176,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Greška pri učitavanju %s: Novčanik oštećen</translation>
     </message>
     <message>
-        <source>Error loading %s: Wallet requires newer version of Creddit Core</source>
-        <translation>Pogreška pri učitavanju %s: Novčanik zahtijeva noviju verziju Creddit Core</translation>
+        <source>Error loading %s: Wallet requires newer version of CREDD Core</source>
+        <translation>Pogreška pri učitavanju %s: Novčanik zahtijeva noviju verziju CREDD Core</translation>
     </message>
     <message>
         <source>Error loading %s
@@ -6378,8 +6378,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Najmanji dozvoljeni iznos (u CREDD) kroz GUI RPC za prag dijeljenja stake-a (default: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Creddit Core will not work properly.</source>
-        <translation>Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Creddit Core neće raditi ispravno.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong CREDD Core will not work properly.</source>
+        <translation>Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, CREDD Core neće raditi ispravno.</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
@@ -6744,8 +6744,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Provjera novčanika...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Creddit Core to complete</source>
-        <translation>Potrebno je prepisati novčanik: ponovo pokrenite Creddit Core</translation>
+        <source>Wallet needed to be rewritten: restart CREDD Core to complete</source>
+        <translation>Potrebno je prepisati novčanik: ponovo pokrenite CREDD Core</translation>
     </message>
     <message>
         <source>Wallet options:</source>

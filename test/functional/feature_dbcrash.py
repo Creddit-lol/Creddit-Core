@@ -31,7 +31,7 @@ import random
 import sys
 import time
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import CredditTestFramework
 from test_framework.util import *
 from test_framework.script import *
 from test_framework.mininode import *
@@ -43,7 +43,7 @@ except AttributeError:
     pass
 
 
-class ChainstateWriteCrashTest(PivxTestFramework):
+class ChainstateWriteCrashTest(CredditTestFramework):
 
     def set_test_params(self):
         self.num_nodes = 4

@@ -5,10 +5,10 @@
 """Verify that starting creddit with -h works as expected."""
 import subprocess
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import CredditTestFramework
 from test_framework.util import assert_equal
 
-class HelpTest(PivxTestFramework):
+class HelpTest(CredditTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 1

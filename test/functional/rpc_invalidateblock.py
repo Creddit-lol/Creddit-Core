@@ -4,10 +4,10 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test the invalidateblock RPC."""
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import CredditTestFramework
 from test_framework.util import *
 
-class InvalidateTest(PivxTestFramework):
+class InvalidateTest(CredditTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 3

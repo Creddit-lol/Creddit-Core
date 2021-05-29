@@ -1,7 +1,7 @@
-Contributing to Creddit Core
+Contributing to CREDD Core
 ============================
 
-The Creddit Core project operates an open contributor model where anyone is
+The CREDD Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
@@ -203,10 +203,10 @@ workload on reviewing.
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the Creddit Core project, and is not to be
+The following applies to code changes to the CREDD Core project, and is not to be
 confused with overall CREDD Network Protocol consensus changes.
 
-Whether a pull request is merged into Creddit Core rests with the project merge
+Whether a pull request is merged into CREDD Core rests with the project merge
 maintainers and ultimately the project lead.
 
 Maintainers will take into consideration if a patch is in line with the general
@@ -303,7 +303,7 @@ about:
 Release Policy
 --------------
 
-The project leader is the release manager for each Creddit Core release.
+The project leader is the release manager for each CREDD Core release.
 
 Copyright
 ---------

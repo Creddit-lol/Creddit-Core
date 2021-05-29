@@ -1,5 +1,5 @@
 // Copyright (c) 2017 The Dash Core developers
-// Copyright (c) 2020 The Creddit Core developers
+// Copyright (c) 2020 The CREDD Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

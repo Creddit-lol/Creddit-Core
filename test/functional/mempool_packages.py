@@ -6,7 +6,7 @@
 
 # Test descendant package tracking code
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import CredditTestFramework
 from test_framework.util import (
     assert_equal,
     Decimal,
@@ -20,7 +20,7 @@ def satoshi_round(amount):
 MAX_ANCESTORS = 25
 MAX_DESCENDANTS = 25
 
-class MempoolPackagesTest(PivxTestFramework):
+class MempoolPackagesTest(CredditTestFramework):
     def set_test_params(self):
         self.num_nodes = 2
         self.extra_args = [["-maxorphantx=1000", "-relaypriority=0"], ["-maxorphantx=1000", "-relaypriority=0", "-limitancestorcount=5"]]

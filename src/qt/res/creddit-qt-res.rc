@@ -20,13 +20,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "CREDD"
-            VALUE "FileDescription",    "Creddit Core (OSS GUI client for CREDD)"
+            VALUE "FileDescription",    "CREDD Core (OSS GUI client for CREDD)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "creddit-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "creddit-qt.exe"
-            VALUE "ProductName",        "Creddit Core"
+            VALUE "ProductName",        "CREDD Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

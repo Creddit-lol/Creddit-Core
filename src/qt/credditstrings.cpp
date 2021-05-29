@@ -141,7 +141,7 @@ QT_TRANSLATE_NOOP("creddit-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
 QT_TRANSLATE_NOOP("creddit-core", ""
 "Please check that your computer's date and time are correct! If your clock "
-"is wrong Creddit Core will not work properly."),
+"is wrong CREDD Core will not work properly."),
 QT_TRANSLATE_NOOP("creddit-core", ""
 "Query for peer addresses via DNS lookup, if low on addresses (default: 1 "
 "unless -connect/-noconnect)"),
@@ -191,7 +191,7 @@ QT_TRANSLATE_NOOP("creddit-core", ""
 "Total length of network version string (%i) exceeds maximum length (%i). "
 "Reduce the number or size of uacomments."),
 QT_TRANSLATE_NOOP("creddit-core", ""
-"Unable to bind to %s on this computer. Creddit Core is probably already running."),
+"Unable to bind to %s on this computer. CREDD Core is probably already running."),
 QT_TRANSLATE_NOOP("creddit-core", ""
 "Unable to replay blocks. You will need to rebuild the database using -"
 "reindex."),
@@ -209,7 +209,7 @@ QT_TRANSLATE_NOOP("creddit-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("creddit-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong Creddit Core will not work properly."),
+"your clock is wrong CREDD Core will not work properly."),
 QT_TRANSLATE_NOOP("creddit-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -254,7 +254,7 @@ QT_TRANSLATE_NOOP("creddit-core", "Connect to a node to retrieve peer addresses,
 QT_TRANSLATE_NOOP("creddit-core", "Connection options:"),
 QT_TRANSLATE_NOOP("creddit-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
 QT_TRANSLATE_NOOP("creddit-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("creddit-core", "Copyright (C) 2015-%i The Creddit Core Developers"),
+QT_TRANSLATE_NOOP("creddit-core", "Copyright (C) 2015-%i The CREDD Core Developers"),
 QT_TRANSLATE_NOOP("creddit-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("creddit-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("creddit-core", "Debugging/Testing options:"),
@@ -274,7 +274,7 @@ QT_TRANSLATE_NOOP("creddit-core", "Enable staking functionality (0-1, default: %
 QT_TRANSLATE_NOOP("creddit-core", "Enable the client to act as a masternode (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("creddit-core", "Error initializing block database"),
 QT_TRANSLATE_NOOP("creddit-core", "Error loading %s: Wallet corrupted"),
-QT_TRANSLATE_NOOP("creddit-core", "Error loading %s: Wallet requires newer version of Creddit Core"),
+QT_TRANSLATE_NOOP("creddit-core", "Error loading %s: Wallet requires newer version of CREDD Core"),
 QT_TRANSLATE_NOOP("creddit-core", "Error loading %s\n"),
 QT_TRANSLATE_NOOP("creddit-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("creddit-core", "Error opening block database"),
@@ -420,7 +420,7 @@ QT_TRANSLATE_NOOP("creddit-core", "Username for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("creddit-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("creddit-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("creddit-core", "Wallet debugging/testing options:"),
-QT_TRANSLATE_NOOP("creddit-core", "Wallet needed to be rewritten: restart Creddit Core to complete"),
+QT_TRANSLATE_NOOP("creddit-core", "Wallet needed to be rewritten: restart CREDD Core to complete"),
 QT_TRANSLATE_NOOP("creddit-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("creddit-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("creddit-core", "Warning"),

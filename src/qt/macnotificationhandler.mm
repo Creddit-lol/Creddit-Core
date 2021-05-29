@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.creddit.Pivx-Qt";
+        return @"io.creddit.Creddit-Qt";
     } else {
         return [self __bundleIdentifier];
     }

@@ -1127,16 +1127,16 @@ Das Staking wird automatisch gestartet, sobald die Wallet genügend Bestätigung
         <translation>Version</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About Creddit Core</source>
-        <translation>Über Creddit Core</translation>
+        <source>About CREDD Core</source>
+        <translation>Über CREDD Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1190,16 +1190,16 @@ Das Staking wird automatisch gestartet, sobald die Wallet genügend Bestätigung
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to Creddit Core.</source>
-        <translation>Willkommen zu Creddit Core.</translation>
+        <source>Welcome to CREDD Core.</source>
+        <translation>Willkommen zu CREDD Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Creddit Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie Creddit Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where CREDD Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie CREDD Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>Creddit Core will download and store a copy of the CREDD block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Creddit Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>CREDD Core will download and store a copy of the CREDD block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>CREDD Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1218,8 +1218,8 @@ Das Staking wird automatisch gestartet, sobald die Wallet genügend Bestätigung
         <translation>OK</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1561,7 +1561,7 @@ in die Zwischenablage zu kopieren.
 
 
 SIe müssen lediglich die Daten in die creddit.conf Datei Ihres externen Servers einfügen,
-die Pivx-wallet starten, um dann von der Kontrollwallet aus
+die Creddit-wallet starten, um dann von der Kontrollwallet aus
 ihren Masternode zu starten (Wählen Sie den Masternode in der Liste aus und drücken SIe "Start").
 </translation>
     </message>
@@ -2045,8 +2045,8 @@ https://www.transifex.com/creddit-project/creddit-project-translations</translat
 <context>
     <name>CREDDGUI</name>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2073,8 +2073,8 @@ https://www.transifex.com/creddit-project/creddit-project-translations</translat
         <translation>Anwendung beenden</translation>
     </message>
     <message>
-        <source>Creddit Core client</source>
-        <translation>Creddit Core Client</translation>
+        <source>CREDD Core client</source>
+        <translation>CREDD Core Client</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2282,8 +2282,8 @@ Adresse: %4
         <translation>Ein fataler Fehler ist aufgetreten. CREDD kann nicht länger sicher fortfahren und wird geschlossen</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2302,8 +2302,8 @@ Adresse: %4
         <translation>Fehler beim Einlesen der Konfigurationsdatei %1 für den Masternode.</translation>
     </message>
     <message>
-        <source>Creddit Core didn't yet exit safely...</source>
-        <translation>Creddit Core konnte noch nicht sicher beendet werden...</translation>
+        <source>CREDD Core didn't yet exit safely...</source>
+        <translation>CREDD Core konnte noch nicht sicher beendet werden...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -4904,8 +4904,8 @@ Sind Sie sicher?</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Creddit Core is shutting down...</source>
-        <translation>Creddit Core wird beendet...</translation>
+        <source>CREDD Core is shutting down...</source>
+        <translation>CREDD Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4934,8 +4934,8 @@ Sind Sie sicher?</translation>
         <translation>Lade...</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
 </context>
 <context>
@@ -5572,8 +5572,8 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
     </message>
     <message>
         <source>Welcome to
-Creddit Core Wallet</source>
-        <translation>Willkommen beim Creddit Core Wallet</translation>
+CREDD Core Wallet</source>
+        <translation>Willkommen beim CREDD Core Wallet</translation>
     </message>
     <message>
         <source>CREDD is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
@@ -5619,8 +5619,8 @@ Creddit Core Wallet</source>
         <translation>Binde an die angegebene Adresse und höre auf JSON-RPC verbindungen. Benutze [host]:port Notation für IPv6. Diese Option kann mehrere Male aufgerufen werden (Standard: Binde an alle Schnittstellen)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Creddit Core is probably already running.</source>
-        <translation>Kann keine Sperre für das Datenverzeichnis %s erhalten. Creddit Core läuft wahrscheinlich bereits.</translation>
+        <source>Cannot obtain a lock on data directory %s. CREDD Core is probably already running.</source>
+        <translation>Kann keine Sperre für das Datenverzeichnis %s erhalten. CREDD Core läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5767,8 +5767,8 @@ Creddit Core Wallet</source>
         <translation>Gesamtlänge des Netzwerkversionsstring (%i) überschreitet die Länge (%i). Reduzieren Sie die Zahl oder die Größe des Dokuments.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Creddit Core is probably already running.</source>
-        <translation>Fehler: Port %s ist bereits belegt! Läuft bereits eine andere Creddit Core Wallet ?</translation>
+        <source>Unable to bind to %s on this computer. CREDD Core is probably already running.</source>
+        <translation>Fehler: Port %s ist bereits belegt! Läuft bereits eine andere CREDD Core Wallet ?</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5783,8 +5783,8 @@ Creddit Core Wallet</source>
         <translation>Warnung: -paytxfee ist sehr hoch eingestellt! Diese Transaktionsgebühr werden Ihnen abgebucht, falls Sie die Transaktion überweisen.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Creddit Core will not work properly.</source>
-        <translation>Warnung: Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird Creddit Core nicht korrekt funktionieren.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong CREDD Core will not work properly.</source>
+        <translation>Warnung: Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird CREDD Core nicht korrekt funktionieren.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5855,8 +5855,8 @@ Creddit Core Wallet</source>
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Creddit Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Creddit Core Developers</translation>
+        <source>Copyright (C) 2015-%i The CREDD Core Developers</source>
+        <translation>Copyright (C) 2015-%i The CREDD Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5975,8 +5975,8 @@ Creddit Core Wallet</source>
         <translation>Hinweis</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Creddit Core is shutting down.</source>
-        <translation>Initialisierung Sanity-Check fehlgeschlagen. Creddit Core schaltet ab.</translation>
+        <source>Initialization sanity check failed. CREDD Core is shutting down.</source>
+        <translation>Initialisierung Sanity-Check fehlgeschlagen. CREDD Core schaltet ab.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -6107,8 +6107,8 @@ Bitte führen Sie 'sapling-fetch-params' oder './util/fetch-params.sh' aus und d
         <translation>Fehler beim Laden %s: Wallet beschädigt</translation>
     </message>
     <message>
-        <source>Error loading %s: Wallet requires newer version of Creddit Core</source>
-        <translation>Fehler beim Laden %s: Neuere Creddit Core Version benötigt</translation>
+        <source>Error loading %s: Wallet requires newer version of CREDD Core</source>
+        <translation>Fehler beim Laden %s: Neuere CREDD Core Version benötigt</translation>
     </message>
     <message>
         <source>Error loading %s
@@ -6311,8 +6311,8 @@ Akzeptiere keine Transaktion, deren vorherige Größe mit &lt;n&gt; im Mempool �
         <translation>Minimaler positiver Betrag (in CREDD), der von GUI und RPC für den Stake split Schwellenwert zugelassen wird (Standard: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Creddit Core will not work properly.</source>
-        <translation>Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird Creddit Core nicht korrekt funktionieren.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong CREDD Core will not work properly.</source>
+        <translation>Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird CREDD Core nicht korrekt funktionieren.</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
@@ -6680,8 +6680,8 @@ Der Schwellenwert darf nicht kleiner sein als %s</translation>
         <translation>Verifiziere Wallet...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Creddit Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte Creddit Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart CREDD Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte CREDD Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

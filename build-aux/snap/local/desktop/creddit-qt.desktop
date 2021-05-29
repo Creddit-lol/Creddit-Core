@@ -2,9 +2,9 @@
 
 [Desktop Entry]
 Encoding=UTF-8
-Name=Creddit Core
-Comment=Creddit Core QT main network
-GenericName=CREDD Digital Currency QT client main network
+Name=CREDDIT Core
+Comment=CREDDIT Core QT main network
+GenericName=CREDDIT Digital Currency QT client main network
 Exec=creddit-core.qt %u
 Terminal=false
 Type=Application

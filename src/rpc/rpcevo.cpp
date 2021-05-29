@@ -1,5 +1,5 @@
 // Copyright (c) 2018-2021 The Dash Core developers
-// Copyright (c) 2021 The Creddit Core developers
+// Copyright (c) 2021 The CREDD Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -207,7 +207,6 @@ static CKeyID ParsePubKeyIDFromAddress(const std::string& strAddress)
 template<typename SpecialTxPayload>
 static void FundSpecialTx(CWallet* pwallet, CMutableTransaction& tx, SpecialTxPayload& payload)
 {
-    assert(pwallet != nullptr);
     SetTxPayload(tx, payload);
 
     static CTxOut dummyTxOut(0, CScript() << OP_RETURN);

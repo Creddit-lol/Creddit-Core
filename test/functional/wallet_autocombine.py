@@ -5,7 +5,7 @@
 
 """Test the wallet's autocombine feature."""
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import CredditTestFramework
 from test_framework.util import (
     assert_equal,
     assert_raises_rpc_error
@@ -14,7 +14,7 @@ from test_framework.util import (
 import time
 
 
-class AutoCombineTest(PivxTestFramework):
+class AutoCombineTest(CredditTestFramework):
     def set_test_params(self):
         self.num_nodes = 1
         self.setup_clean_chain = True

@@ -1406,7 +1406,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location line="+0"/>
-        <source>Creddit Core</source>
+        <source>CREDD Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1417,7 +1417,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location line="+6"/>
-        <source>About Creddit Core</source>
+        <source>About CREDD Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1485,17 +1485,17 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location line="+90"/>
-        <source>Welcome to Creddit Core.</source>
+        <source>Welcome to CREDD Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+35"/>
-        <source>As this is the first time the program is launched, you can choose where Creddit Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where CREDD Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>Creddit Core will download and store a copy of the CREDD block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>CREDD Core will download and store a copy of the CREDD block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1520,7 +1520,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location filename="../intro.cpp" line="+100"/>
-        <source>Creddit Core</source>
+        <source>CREDD Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2513,7 +2513,7 @@ https://www.transifex.com/creddit-project/creddit-project-translations</source>
         <location filename="../creddit/credditgui.cpp" line="+69"/>
         <location line="+301"/>
         <location line="+69"/>
-        <source>Creddit Core</source>
+        <source>CREDD Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2548,7 +2548,7 @@ https://www.transifex.com/creddit-project/creddit-project-translations</source>
     </message>
     <message>
         <location line="+39"/>
-        <source>Creddit Core client</source>
+        <source>CREDD Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2823,7 +2823,7 @@ Address: %4
         <location line="+7"/>
         <location line="+15"/>
         <location line="+19"/>
-        <source>Creddit Core</source>
+        <source>CREDD Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6073,7 +6073,7 @@ Are you sure?
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+71"/>
-        <source>Creddit Core is shutting down...</source>
+        <source>CREDD Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6109,7 +6109,7 @@ Are you sure?
     </message>
     <message>
         <location filename="../creddit/splash.cpp" line="+31"/>
-        <source>Creddit Core</source>
+        <source>CREDD Core</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6917,7 +6917,7 @@ Select fewer inputs with coin control.</source>
     <message>
         <location line="+89"/>
         <source>Welcome to
-Creddit Core Wallet</source>
+CREDD Core Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7145,7 +7145,7 @@ Creddit Core Wallet</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to bind to %s on this computer. Creddit Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. CREDD Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7165,7 +7165,7 @@ Creddit Core Wallet</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Creddit Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CREDD Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7255,7 +7255,7 @@ Creddit Core Wallet</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The Creddit Core Developers</source>
+        <source>Copyright (C) 2015-%i The CREDD Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7567,7 +7567,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading %s: Wallet requires newer version of Creddit Core</source>
+        <source>Error loading %s: Wallet requires newer version of CREDD Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7833,7 +7833,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+7"/>
-        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Creddit Core will not work properly.</source>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong CREDD Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8304,7 +8304,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+2"/>
-        <source>Wallet needed to be rewritten: restart Creddit Core to complete</source>
+        <source>Wallet needed to be rewritten: restart CREDD Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

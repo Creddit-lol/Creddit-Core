@@ -188,8 +188,8 @@ void OptionsModel::setDisplayDefaultOptions(QSettings& settings, bool reset)
     if (!gArgs.SoftSetArg("-lang", settings.value("language").toString().toStdString()))
         addOverriddenOption("-lang");
 
-    if (settings.contains("nAnonymizePivxAmount") || reset)
-        gArgs.SoftSetArg("-anonymizecredditamount", settings.value("nAnonymizePivxAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeCredditAmount") || reset)
+        gArgs.SoftSetArg("-anonymizecredditamount", settings.value("nAnonymizeCredditAmount").toString().toStdString());
 
     if (!settings.contains("strThirdPartyTxUrls") || reset)
         settings.setValue("strThirdPartyTxUrls", "");

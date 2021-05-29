@@ -4,10 +4,10 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test the -uacomment option."""
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import CredditTestFramework
 from test_framework.util import assert_equal
 
-class UacommentTest(PivxTestFramework):
+class UacommentTest(CredditTestFramework):
     def set_test_params(self):
         self.num_nodes = 1
         self.setup_clean_chain = True
@@ -23,7 +23,7 @@ class UacommentTest(PivxTestFramework):
 
         self.log.info("test -uacomment max length")
         self.stop_node(0)
-        expected = "exceeds maximum length (256). Reduce the number or size of uacomments."
+        expected = "exceeds maximum length (256). Reduce the number or size of -uacomment."
         self.assert_start_raises_init_error(0, ["-uacomment=" + 'a' * 256], expected)
 
         self.log.info("test -uacomment unsafe characters")

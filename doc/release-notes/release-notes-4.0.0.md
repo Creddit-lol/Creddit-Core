@@ -1,4 +1,4 @@
-Creddit Core version *v4.0.0* is now available from:  <https://github.com/creddit-project/creddit/releases>
+CREDD Core version *v4.0.0* is now available from:  <https://github.com/creddit-project/creddit/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
@@ -8,7 +8,7 @@ Please report bugs using the issue tracker at github: <https://github.com/creddi
 Mandatory Update
 ==============
 
-Creddit Core v4.0.0 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will need to update their clients before enforcement of this update goes into effect.
+CREDD Core v4.0.0 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will need to update their clients before enforcement of this update goes into effect.
 
 Update enforcement is currently scheduled to go into effect at the following time:
 
@@ -27,13 +27,13 @@ If you are running an older version, shut it down. Wait until it has completely 
 Compatibility
 ==============
 
-Creddit Core is extensively tested on multiple operating systems using the Linux kernel, macOS 10.10+, and Windows 7 and later.
+CREDD Core is extensively tested on multiple operating systems using the Linux kernel, macOS 10.10+, and Windows 7 and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support), No attempt is made to prevent installing or running the software on Windows XP, you can still do so at your own risk but be aware that there are known instabilities and issues. Please do not report issues about Windows XP to the issue tracker.
 
-Apple released it's last Mountain Lion update August 13, 2015, and officially ended support on [December 14, 2015](http://news.fnal.gov/2015/10/mac-os-x-mountain-lion-10-8-end-of-life-december-14/). Creddit Core software starting with v3.2.0 will no longer run on MacOS versions prior to Yosemite (10.10). Please do not report issues about MacOS versions prior to Yosemite to the issue tracker.
+Apple released it's last Mountain Lion update August 13, 2015, and officially ended support on [December 14, 2015](http://news.fnal.gov/2015/10/mac-os-x-mountain-lion-10-8-end-of-life-december-14/). CREDD Core software starting with v3.2.0 will no longer run on MacOS versions prior to Yosemite (10.10). Please do not report issues about MacOS versions prior to Yosemite to the issue tracker.
 
-Creddit Core should also work on most other Unix-like systems but is not frequently tested on them.
+CREDD Core should also work on most other Unix-like systems but is not frequently tested on them.
 
 
 Notable Changes

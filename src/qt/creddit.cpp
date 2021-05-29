@@ -150,7 +150,7 @@ void DebugMessageHandler(QtMsgType type, const QMessageLogContext& context, cons
     }
 }
 
-/** Class encapsulating Creddit Core startup and shutdown.
+/** Class encapsulating CREDD Core startup and shutdown.
  * Allows running startup and shutdown in a different thread from the UI thread.
  */
 class BitcoinCore : public QObject
@@ -604,14 +604,14 @@ int main(int argc, char* argv[])
     /// 6. Determine availability of data and blocks directory and parse creddit.conf
     /// - Do not call GetDataDir(true) before this step finishes
     if (!fs::is_directory(GetDataDir(false))) {
-        QMessageBox::critical(0, QObject::tr("Creddit Core"),
+        QMessageBox::critical(0, QObject::tr("CREDD Core"),
             QObject::tr("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(gArgs.GetArg("-datadir", ""))));
         return 1;
     }
     try {
         gArgs.ReadConfigFile(gArgs.GetArg("-conf", CREDD_CONF_FILENAME));
     } catch (const std::exception& e) {
-        QMessageBox::critical(0, QObject::tr("Creddit Core"),
+        QMessageBox::critical(0, QObject::tr("CREDD Core"),
             QObject::tr("Error: Cannot parse configuration file: %1. Only use key=value syntax.").arg(e.what()));
         return 0;
     }
@@ -626,7 +626,7 @@ int main(int argc, char* argv[])
     try {
         SelectParams(gArgs.GetChainName());
     } catch(const std::exception& e) {
-        QMessageBox::critical(0, QObject::tr("Creddit Core"), QObject::tr("Error: %1").arg(e.what()));
+        QMessageBox::critical(0, QObject::tr("CREDD Core"), QObject::tr("Error: %1").arg(e.what()));
         return 1;
     }
 #ifdef ENABLE_WALLET
@@ -645,7 +645,7 @@ int main(int argc, char* argv[])
     /// 7a. parse masternode.conf
     std::string strErr;
     if (!masternodeConfig.read(strErr)) {
-        QMessageBox::critical(0, QObject::tr("Creddit Core"),
+        QMessageBox::critical(0, QObject::tr("CREDD Core"),
             QObject::tr("Error reading masternode configuration file: %1").arg(strErr.c_str()));
         return 0;
     }

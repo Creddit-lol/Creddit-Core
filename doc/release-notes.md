@@ -1,6 +1,6 @@
 (note: this is a temporary file, to be added-to by anybody, and moved to release-notes at release time)
 
-Creddit Core version *version* is now available from:  <https://github.com/creddit-project/creddit/releases>
+CREDD Core version *version* is now available from:  <https://github.com/creddit-project/creddit/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
@@ -15,7 +15,7 @@ If you are running an older version, shut it down. Wait until it has completely 
 Sapling Parameters
 ==================
 
-In order to run, Creddit Core now requires two files, `sapling-output.params` and `sapling-spend.params` (with total size ~50 MB), to be saved in a specific location.
+In order to run, CREDD Core now requires two files, `sapling-output.params` and `sapling-spend.params` (with total size ~50 MB), to be saved in a specific location.
 
 For the following packages, no action is required by the user:
 - macOS release `dmg` binaries will use the params that are bundled into the .app bundle.
@@ -30,13 +30,13 @@ For the other packages, the user must save the param files in the proper locatio
 Compatibility
 ==============
 
-Creddit Core is extensively tested on multiple operating systems using the Linux kernel, macOS 10.10+, and Windows 7 and later.
+CREDD Core is extensively tested on multiple operating systems using the Linux kernel, macOS 10.12+, and Windows 7 and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support), No attempt is made to prevent installing or running the software on Windows XP, you can still do so at your own risk but be aware that there are known instabilities and issues. Please do not report issues about Windows XP to the issue tracker.
 
-Apple released it's last Mountain Lion update August 13, 2015, and officially ended support on [December 14, 2015](http://news.fnal.gov/2015/10/mac-os-x-mountain-lion-10-8-end-of-life-december-14/). Creddit Core software starting with v3.2.0 will no longer run on MacOS versions prior to Yosemite (10.10). Please do not report issues about MacOS versions prior to Yosemite to the issue tracker.
+From CREDD Core 6.0 onwards, macOS versions earlier than 10.12 are no longer supported.
 
-Creddit Core should also work on most other Unix-like systems but is not frequently tested on them.
+CREDD Core should also work on most other Unix-like systems but is not frequently tested on them.
 
 
 Notable Changes
@@ -46,7 +46,7 @@ Notable Changes
 
 Cold-Staking Re-Activation
 --------------------------
-Creddit Core v6.0.0 includes a fix for the vulnerability identified within the cold-staking protocol (see PR [#2258](https://github.com/CREDD-Project/CREDD/pull/2258)).
+CREDD Core v6.0.0 includes a fix for the vulnerability identified within the cold-staking protocol (see PR [#2258](https://github.com/CREDD-Project/CREDD/pull/2258)).
 Therefore the feature will be re-enabled on the network, via `SPORK_19`, shortly after the upgrade enforcement.
 
 ### Protocol changes
@@ -60,7 +60,7 @@ Scripts with the old opcode are still accepted on the network (the restriction o
 Multi-wallet support
 --------------------
 
-Creddit Core now supports loading multiple, separate wallets (See [PR 2337](https://github.com/CREDD-Project/CREDD/pull/2337)). The wallets are completely separated, with individual balances, keys and received transactions.
+CREDD Core now supports loading multiple, separate wallets (See [PR 2337](https://github.com/CREDD-Project/CREDD/pull/2337)). The wallets are completely separated, with individual balances, keys and received transactions.
 
 Multi-wallet is enabled by using more than one `-wallet` argument when starting CREDD client, either on the command line or in the creddit.conf config file.
 
@@ -160,7 +160,7 @@ The minimum supported miniUPnPc API version is set to 10. This keeps compatibili
 
 #### Build System
 
-OpenSSL is no longer used by Creddit Core
+OpenSSL is no longer used by CREDD Core
 
 
 #### Disable PoW mining RPC Commands

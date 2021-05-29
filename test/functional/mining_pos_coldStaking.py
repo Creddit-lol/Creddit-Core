@@ -9,9 +9,9 @@ from time import sleep
 
 from test_framework.messages import CTransaction, CTxIn, CTxOut, COIN, COutPoint
 from test_framework.mininode import network_thread_start
-from test_framework.creddit_node import PivxTestNode
+from test_framework.creddit_node import CredditTestNode
 from test_framework.script import CScript, OP_CHECKSIG
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import CredditTestFramework
 from test_framework.util import (
     assert_equal,
     assert_greater_than,
@@ -28,7 +28,7 @@ def getDelegatedUtxos(utxos):
     return [x for x in utxos if x["scriptPubKey"][:10] == '76a97b63d1' or x["scriptPubKey"][:10] == '76a97b63d2']
 
 
-class CREDD_ColdStakingTest(PivxTestFramework):
+class CREDD_ColdStakingTest(CredditTestFramework):
 
     def set_test_params(self):
         self.num_nodes = 3
@@ -49,7 +49,7 @@ class CREDD_ColdStakingTest(PivxTestFramework):
         # Setup the p2p connections and start up the network thread.
         self.test_nodes = []
         for i in range(self.num_nodes):
-            self.test_nodes.append(PivxTestNode())
+            self.test_nodes.append(CredditTestNode())
             self.test_nodes[i].peer_connect('127.0.0.1', p2p_port(i))
 
         network_thread_start()  # Start up network handling in another thread

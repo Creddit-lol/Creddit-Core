@@ -1112,16 +1112,16 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>версия</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Creddit Core</source>
-        <translation>О Creddit Core</translation>
+        <source>About CREDD Core</source>
+        <translation>О CREDD Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1175,16 +1175,16 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Creddit Core.</source>
-        <translation>Добро пожаловать в Creddit Core.</translation>
+        <source>Welcome to CREDD Core.</source>
+        <translation>Добро пожаловать в CREDD Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Creddit Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Creddit Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where CREDD Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные CREDD Core.</translation>
     </message>
     <message>
-        <source>Creddit Core will download and store a copy of the CREDD block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Creddit Core загрузит и сохранит копию цепочки блоков CREDD. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>CREDD Core will download and store a copy of the CREDD block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>CREDD Core загрузит и сохранит копию цепочки блоков CREDD. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1203,8 +1203,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>ХОРОШО</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2026,8 +2026,8 @@ https://www.transifex.com/creddit-project/creddit-project-translations</translat
 <context>
     <name>CREDDGUI</name>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2054,8 +2054,8 @@ https://www.transifex.com/creddit-project/creddit-project-translations</translat
         <translation>Завершить работу</translation>
     </message>
     <message>
-        <source>Creddit Core client</source>
-        <translation>Клиент Creddit Core</translation>
+        <source>CREDD Core client</source>
+        <translation>Клиент CREDD Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2259,8 +2259,8 @@ Address: %4
         <translation>Произошла фатальная ошибка. CREDD больше не может безопасно продолжать работу и завершит работу.</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2279,8 +2279,8 @@ Address: %4
         <translation>Ошибка чтения файла конфигурации мастерноды: %1</translation>
     </message>
     <message>
-        <source>Creddit Core didn't yet exit safely...</source>
-        <translation>Creddit Core еще не вышел безопасно...</translation>
+        <source>CREDD Core didn't yet exit safely...</source>
+        <translation>CREDD Core еще не вышел безопасно...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -4721,8 +4721,8 @@ Are you sure?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Creddit Core is shutting down...</source>
-        <translation>Creddit Core выключается...</translation>
+        <source>CREDD Core is shutting down...</source>
+        <translation>CREDD Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4751,8 +4751,8 @@ Are you sure?
         <translation>Загрузка...</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
 </context>
 <context>
@@ -5290,7 +5290,7 @@ Select fewer inputs with coin control.</source>
     </message>
     <message>
         <source>Welcome to
-Creddit Core Wallet</source>
+CREDD Core Wallet</source>
         <translation>Добро пожаловать
 в основной кошелек CREDD</translation>
     </message>
@@ -5338,8 +5338,8 @@ Creddit Core Wallet</source>
         <translation>Привяжите к указанному адресу для прослушивания соединений JSON-RPC. Используйте [host]: обозначение порта для IPv6. Эта опция может быть указана несколько раз (по умолчанию: привязка ко всем интерфейсам)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Creddit Core is probably already running.</source>
-        <translation>Не удается получить блокировку в каталоге данных %s. Creddit Core, вероятно, уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. CREDD Core is probably already running.</source>
+        <translation>Не удается получить блокировку в каталоге данных %s. CREDD Core, вероятно, уже запущен.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5486,8 +5486,8 @@ Creddit Core Wallet</source>
         <translation>Общая длина строки версии сети (%i) превышает максимальную длину (%i). Уменьшите количество или размер uacomments.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Creddit Core is probably already running.</source>
-        <translation>Не удалось привязать к %s на этом компьютере. Creddit Core, вероятно, уже запущен.</translation>
+        <source>Unable to bind to %s on this computer. CREDD Core is probably already running.</source>
+        <translation>Не удалось привязать к %s на этом компьютере. CREDD Core, вероятно, уже запущен.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5502,8 +5502,8 @@ Creddit Core Wallet</source>
         <translation>Предупреждение: -paytxfee установлен очень высоко! Это комиссия за транзакцию, которую вы заплатите, если вы отправляете транзакцию.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Creddit Core will not work properly.</source>
-        <translation>Внимание: проверьте правильность даты и времени вашего компьютера! Если ваши часы ошибочны, Creddit Core не будет работать должным образом.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong CREDD Core will not work properly.</source>
+        <translation>Внимание: проверьте правильность даты и времени вашего компьютера! Если ваши часы ошибочны, CREDD Core не будет работать должным образом.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5574,8 +5574,8 @@ Creddit Core Wallet</source>
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Creddit Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики Creddit Core</translation>
+        <source>Copyright (C) 2015-%i The CREDD Core Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики CREDD Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5694,8 +5694,8 @@ Creddit Core Wallet</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Creddit Core is shutting down.</source>
-        <translation>Инициализация проверки работоспособности не удалась. Creddit Core отключается.</translation>
+        <source>Initialization sanity check failed. CREDD Core is shutting down.</source>
+        <translation>Инициализация проверки работоспособности не удалась. CREDD Core отключается.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -5942,8 +5942,8 @@ Creddit Core Wallet</source>
         <translation>Минимальная положительная сумма (в CREDD), разрешенная GUI и RPC для порога разделения стекинга (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Creddit Core will not work properly.</source>
-        <translation>Пожалуйста, проверьте правильность даты и времени на вашем компьютере! Если ваши часы не точны, Creddit Core не будет работать должным образом.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong CREDD Core will not work properly.</source>
+        <translation>Пожалуйста, проверьте правильность даты и времени на вашем компьютере! Если ваши часы не точны, CREDD Core не будет работать должным образом.</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
@@ -6292,8 +6292,8 @@ Creddit Core Wallet</source>
         <translation>Проверка кошелька ...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Creddit Core to complete</source>
-        <translation>Кошелек необходимо переписать: перезапустите Creddit Core, чтобы завершить</translation>
+        <source>Wallet needed to be rewritten: restart CREDD Core to complete</source>
+        <translation>Кошелек необходимо переписать: перезапустите CREDD Core, чтобы завершить</translation>
     </message>
     <message>
         <source>Wallet options:</source>

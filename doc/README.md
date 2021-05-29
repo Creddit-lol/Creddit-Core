@@ -1,13 +1,13 @@
-Creddit Core
+CREDD Core
 =============
 
 Setup
 ---------------------
-[Creddit Core](http://creddit.org/wallet) is the original CREDD client and it builds the backbone of the network. However, it downloads and stores the entire history of CREDD transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[CREDD Core](http://creddit.org/wallet) is the original CREDD client and it builds the backbone of the network. However, it downloads and stores the entire history of CREDD transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Creddit Core on your native platform.
+The following are some helpful notes on how to run CREDD Core on your native platform.
 
 ### Unix
 
@@ -16,7 +16,7 @@ Unpack the files into a directory and run:
 - `bin/creddit-qt` (GUI) or
 - `bin/credditd` (headless)
 
-If this is the first time running Creddit Core (since v5.0.0), you'll need to install the sapling params by running the included `install-params.sh` script, which copies the two params files to `$HOME/.creddit-params`
+If this is the first time running CREDD Core (since v5.0.0), you'll need to install the sapling params by running the included `install-params.sh` script, which copies the two params files to `$HOME/.creddit-params`
 
 ### Windows
 
@@ -35,7 +35,7 @@ for help and more information.
 
 Building
 ---------------------
-The following are developer notes on how to build Creddit Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build CREDD Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
@@ -64,6 +64,7 @@ The CREDD repo's [root README](/README.md) contains relevant information on the 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
 - [Files](files.md)
+- [Fuzz-testing](fuzzing.md)
 - [Reduce Memory](reduce-memory.md)
 - [Tor Support](tor.md)
 - [Init Scripts (systemd/upstart/openrc)](init.md)

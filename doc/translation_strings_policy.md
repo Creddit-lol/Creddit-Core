@@ -1,7 +1,7 @@
 Translation Strings Policy
 ===========================
 
-This document provides guidelines for internationalization of the Creddit Core software.
+This document provides guidelines for internationalization of the CREDD Core software.
 
 How to translate?
 ------------------

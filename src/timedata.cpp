@@ -77,7 +77,7 @@ void AddTimeData(const CNetAddr& ip, int64_t nOffsetSample, int nOffsetLimit)
             SetMiscWarning("");
         } else {
             nTimeOffset = (nMedian > 0 ? 1 : -1) * nOffsetLimit;
-            std::string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Creddit Core will not work properly.");
+            std::string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong CREDD Core will not work properly.");
             SetMiscWarning(strMessage);
             LogPrintf("*** %s\n", strMessage);
             uiInterface.ThreadSafeMessageBox(strMessage, "", CClientUIInterface::MSG_ERROR);

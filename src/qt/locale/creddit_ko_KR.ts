@@ -1125,16 +1125,16 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>버전</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Creddit Core</source>
-        <translation>Creddit Core 정보</translation>
+        <source>About CREDD Core</source>
+        <translation>CREDD Core 정보</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1188,16 +1188,16 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>환영합니다</translation>
     </message>
     <message>
-        <source>Welcome to Creddit Core.</source>
-        <translation>Creddit Core에 오신 것을 환영합니다.</translation>
+        <source>Welcome to CREDD Core.</source>
+        <translation>CREDD Core에 오신 것을 환영합니다.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Creddit Core will store its data.</source>
-        <translation>이 프로그램이 처음 실행되었으므로 Creddit Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
+        <source>As this is the first time the program is launched, you can choose where CREDD Core will store its data.</source>
+        <translation>이 프로그램이 처음 실행되었으므로 CREDD Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Creddit Core will download and store a copy of the CREDD block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Creddit Core는 CREDD 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
+        <source>CREDD Core will download and store a copy of the CREDD block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>CREDD Core는 CREDD 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1216,8 +1216,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>선택</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2042,8 +2042,8 @@ https://www.transifex.com/creddit-project/creddit-project-translations</translat
 <context>
     <name>CREDDGUI</name>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2070,8 +2070,8 @@ https://www.transifex.com/creddit-project/creddit-project-translations</translat
         <translation>어플리케이션 종료</translation>
     </message>
     <message>
-        <source>Creddit Core client</source>
-        <translation>Creddit Core 클라이언트</translation>
+        <source>CREDD Core client</source>
+        <translation>CREDD Core 클라이언트</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2279,8 +2279,8 @@ Address: %4
         <translation>치명적인 오류가 발생하였습니다. CREDD는 더 이상 안전하게 계속될 수 없으며, 곧 종료됩니다.</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2299,8 +2299,8 @@ Address: %4
         <translation>마스터노드 설정 파일 읽기 오류: %1</translation>
     </message>
     <message>
-        <source>Creddit Core didn't yet exit safely...</source>
-        <translation>Creddit Core가 아직 안전하게 종료되지 않았습니다....</translation>
+        <source>CREDD Core didn't yet exit safely...</source>
+        <translation>CREDD Core가 아직 안전하게 종료되지 않았습니다....</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -4329,8 +4329,8 @@ Are you sure?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Creddit Core is shutting down...</source>
-        <translation>Creddit Core가 종료됩니다...</translation>
+        <source>CREDD Core is shutting down...</source>
+        <translation>CREDD Core가 종료됩니다...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4359,8 +4359,8 @@ Are you sure?
         <translation>로딩중...</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
 </context>
 <context>
@@ -4817,9 +4817,9 @@ NOTE: 업그레이드 이후에는
     </message>
     <message>
         <source>Welcome to
-Creddit Core Wallet</source>
+CREDD Core Wallet</source>
         <translation>환영합니다.
-Creddit Core Wallet</translation>
+CREDD Core Wallet</translation>
     </message>
     <message>
         <source>CREDD is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
@@ -4865,8 +4865,8 @@ Creddit Core Wallet</translation>
         <translation>JSON-RPC연결 수신을 위해 주어진 주소를 지정합니다. [host]: IPv6 포트 표기법 사용. 이 옵션은 여러번 지정할 수 있습니다. (기본값 : 모든 인터페이스에 지정)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Creddit Core is probably already running.</source>
-        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. Creddit Core는 이미 실행 중입니다.</translation>
+        <source>Cannot obtain a lock on data directory %s. CREDD Core is probably already running.</source>
+        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. CREDD Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4989,8 +4989,8 @@ Creddit Core Wallet</translation>
         <translation>이 제품은 OpenSSL이 개발한 Open SSL 툴킷 &lt;https://www.openssl.org/&gt; 에서 사용하기 위한 프로젝트 소프트웨어, Eric Young이 개발한 암호화 소프트웨어, Thomas Bernard가 개발한 UPnP 소프트웨어가 포함되어 있습니다.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Creddit Core is probably already running.</source>
-        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. Creddit Core는 이미 실행 중입니다.</translation>
+        <source>Unable to bind to %s on this computer. CREDD Core is probably already running.</source>
+        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. CREDD Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5005,7 +5005,7 @@ Creddit Core Wallet</translation>
         <translation>경고 : -paytxfee가 매우 높게 설정되었습니다! 이것은 전송할 경우 지불 할 트랜잭션 수수료입니다.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Creddit Core will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong CREDD Core will not work properly.</source>
         <translation>경고: 컴퓨터의 날짜와 시간이 올바르게 설정되어 있는지 확인해 주세요! 만일 시계가 잘못되어 있다면 CREDD 코어는 정상적으로 작동하지 않을 수 있습니다.</translation>
     </message>
     <message>
@@ -5073,8 +5073,8 @@ Creddit Core Wallet</translation>
         <translation>Copyright (C) 2014-%i The Dash Core 개발자들</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Creddit Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Creddit Core 개발자</translation>
+        <source>Copyright (C) 2015-%i The CREDD Core Developers</source>
+        <translation>Copyright (C) 2015-%i The CREDD Core 개발자</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5193,8 +5193,8 @@ Creddit Core Wallet</translation>
         <translation>정보</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Creddit Core is shutting down.</source>
-        <translation>초기화 정확성 검사에 실패 했습니다. Creddit Core가 종료됩니다.</translation>
+        <source>Initialization sanity check failed. CREDD Core is shutting down.</source>
+        <translation>초기화 정확성 검사에 실패 했습니다. CREDD Core가 종료됩니다.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -5393,7 +5393,7 @@ Creddit Core Wallet</translation>
         <translation>재동기화 준비중...</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Creddit Core will not work properly.</source>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong CREDD Core will not work properly.</source>
         <translation>컴퓨터의 날짜와 시간이 올바르게 설정되어 있는지 확인해 주세요! 만일 시계가 잘못되어 있다면 CREDD 코어는 정상적으로 작동하지 않을 수 있습니다.</translation>
     </message>
     <message>
@@ -5641,7 +5641,7 @@ Creddit Core Wallet</translation>
         <translation>지갑 인증 중...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Creddit Core to complete</source>
+        <source>Wallet needed to be rewritten: restart CREDD Core to complete</source>
         <translation>지갑을 다시 작성해야 합니다: 완료하려면 CREDD 코어를 재시작해야 합니다</translation>
     </message>
     <message>

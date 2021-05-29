@@ -44,7 +44,7 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || gArgs.IsArgSet("-?") || gArgs.IsArgSet("-h") || gArgs.IsArgSet("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Pivx Core creddit-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Creddit Core creddit-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
                                "  creddit-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded creddit transaction") + "\n" +
                                "  creddit-tx [options] -create [commands]   " + _("Create hex-encoded creddit transaction") + "\n" +

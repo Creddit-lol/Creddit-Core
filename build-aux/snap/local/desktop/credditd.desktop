@@ -2,9 +2,9 @@
 
 [Desktop Entry]
 Encoding=UTF-8
-Name=Creddit Core Daemon SNAP
+Name=CREDDIT Core Daemon SNAP
 Comment=main
-GenericName=CREDD Digital Currency Daemon Client main network
+GenericName=CREDDIT Digital Currency Daemon Client main network
 Exec=creddit-core.daemon %u
 Terminal=true
 Type=Application

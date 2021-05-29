@@ -66,7 +66,7 @@ CREDDGUI::CREDDGUI(const NetworkStyle* networkStyle, QWidget* parent) :
 
     QString windowTitle = QString::fromStdString(gArgs.GetArg("-windowtitle", ""));
     if (windowTitle.isEmpty()) {
-        windowTitle = tr("Creddit Core") + " - ";
+        windowTitle = tr("CREDD Core") + " - ";
         windowTitle += ((enableWallet) ? tr("Wallet") : tr("Node"));
     }
     windowTitle += " " + networkStyle->getTitleAddText();
@@ -210,7 +210,7 @@ void CREDDGUI::createTrayIcon(const NetworkStyle* networkStyle)
 {
 #ifndef Q_OS_MAC
     trayIcon = new QSystemTrayIcon(this);
-    QString toolTip = tr("Creddit Core client") + " " + networkStyle->getTitleAddText();
+    QString toolTip = tr("CREDD Core client") + " " + networkStyle->getTitleAddText();
     trayIcon->setToolTip(toolTip);
     trayIcon->setIcon(networkStyle->getAppIcon());
     trayIcon->hide();
@@ -374,7 +374,7 @@ void CREDDGUI::messageInfo(const QString& text)
 
 void CREDDGUI::message(const QString& title, const QString& message, unsigned int style, bool* ret)
 {
-    QString strTitle =  tr("Creddit Core"); // default title
+    QString strTitle =  tr("CREDD Core"); // default title
     // Default to information icon
     int nNotifyIcon = Notificator::Information;
 
@@ -443,7 +443,7 @@ bool CREDDGUI::openStandardDialog(QString title, QString body, QString okBtn, QS
     } else {
         dialog = new DefaultDialog();
         dialog->setText(title, body, okBtn);
-        dialog->setWindowTitle(tr("Creddit Core"));
+        dialog->setWindowTitle(tr("CREDD Core"));
         dialog->adjustSize();
         dialog->raise();
         dialog->exec();

@@ -1,4 +1,4 @@
-Creddit Core version v5.0.1 is now available from: https://github.com/creddit-project/creddit/releases
+CREDD Core version v5.0.1 is now available from: https://github.com/creddit-project/creddit/releases
 Please report bugs using the issue tracker at github: https://github.com/creddit-project/creddit/issues
 
 Mandatory Update

@@ -1017,16 +1017,16 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Creddit Core</source>
-        <translation>Creddit Core Hakkında </translation>
+        <source>About CREDD Core</source>
+        <translation>CREDD Core Hakkında </translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1076,16 +1076,16 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to Creddit Core.</source>
-        <translation>Creddit Core'a hoşgeldiniz.</translation>
+        <source>Welcome to CREDD Core.</source>
+        <translation>CREDD Core'a hoşgeldiniz.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Creddit Core will store its data.</source>
-        <translation>Program ilk başlatıldığında Creddit Core'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
+        <source>As this is the first time the program is launched, you can choose where CREDD Core will store its data.</source>
+        <translation>Program ilk başlatıldığında CREDD Core'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>Creddit Core will download and store a copy of the CREDD block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Creddit Core, CREDD blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecektir. Ayrıca cüzdanınız da bu dizinde saklanır.</translation>
+        <source>CREDD Core will download and store a copy of the CREDD block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>CREDD Core, CREDD blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecektir. Ayrıca cüzdanınız da bu dizinde saklanır.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1104,8 +1104,8 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>TAMAM</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1733,8 +1733,8 @@ https://www.transifex.com/creddit-project/creddit-project-translations</translat
 <context>
     <name>CREDDGUI</name>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1761,8 +1761,8 @@ https://www.transifex.com/creddit-project/creddit-project-translations</translat
         <translation>Uygulamayı sonlandır</translation>
     </message>
     <message>
-        <source>Creddit Core client</source>
-        <translation>Creddit Core istemci</translation>
+        <source>CREDD Core client</source>
+        <translation>CREDD Core istemci</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1829,7 +1829,7 @@ Adres: %4
     </message>
     <message>
         <source>Cannot start creddit: click-to-pay handler</source>
-        <translation>Pivx başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
+        <translation>Creddit başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid CREDD address or malformed URI parameters.</source>
@@ -1962,8 +1962,8 @@ Adres: %4
         <translation>Onarılamaz bir hata oluştu. CREDD güvenli bir şekilde çalışamaz, kapanacaktır.</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1982,8 +1982,8 @@ Adres: %4
         <translation>Masternode konfigürasyon dosyası okuma hatası: %1</translation>
     </message>
     <message>
-        <source>Creddit Core didn't yet exit safely...</source>
-        <translation>Creddit Core henüz güvenle kapanmadı..</translation>
+        <source>CREDD Core didn't yet exit safely...</source>
+        <translation>CREDD Core henüz güvenle kapanmadı..</translation>
     </message>
     <message>
         <source>Cold Staking</source>
@@ -3931,8 +3931,8 @@ Emin misiniz?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Creddit Core is shutting down...</source>
-        <translation>Creddit Core kapanıyor ...</translation>
+        <source>CREDD Core is shutting down...</source>
+        <translation>CREDD Core kapanıyor ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3961,8 +3961,8 @@ Emin misiniz?
         <translation>Yükleniyor...</translation>
     </message>
     <message>
-        <source>Creddit Core</source>
-        <translation>Creddit Core</translation>
+        <source>CREDD Core</source>
+        <translation>CREDD Core</translation>
     </message>
 </context>
 <context>
@@ -4317,8 +4317,8 @@ Emin misiniz?
     </message>
     <message>
         <source>Welcome to
-Creddit Core Wallet</source>
-        <translation>Creddit Core Cüzdanı'na
+CREDD Core Wallet</source>
+        <translation>CREDD Core Cüzdanı'na
 Hoşgeldiniz</translation>
     </message>
     <message>
@@ -4365,8 +4365,8 @@ Hoşgeldiniz</translation>
         <translation>JSON-RPC bağlantılarını dinlemek için verilen adrese bağlanın. IPv6 için [host]: port gösterimini kullanın. Bu seçenek birden çok kez belirtilebilir (varsayılan: tüm arabirimlere bağlanır)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Creddit Core is probably already running.</source>
-        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. Creddit Core muhtemelen zaten çalışıyor.</translation>
+        <source>Cannot obtain a lock on data directory %s. CREDD Core is probably already running.</source>
+        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. CREDD Core muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4509,8 +4509,8 @@ Hoşgeldiniz</translation>
         <translation>Ağ versiyon dizisi toplam uzunluğu(%i) maksimum uzunluğu aşıyor(%i). Yorumların büyüklüğünü veya sayısını azaltın.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Creddit Core is probably already running.</source>
-        <translation>Bu bilgisayarda %s 'e bağlanılamıyor. Creddit Core muhtemelen zaten çalışıyor.</translation>
+        <source>Unable to bind to %s on this computer. CREDD Core is probably already running.</source>
+        <translation>Bu bilgisayarda %s 'e bağlanılamıyor. CREDD Core muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4525,8 +4525,8 @@ Hoşgeldiniz</translation>
         <translation>Uyarı: paytxfee değeri çok yüksek ayarlanmış! Bu para gönderirken ödeyeceğiniz transfer ücretidir.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Creddit Core will not work properly.</source>
-        <translation>Uyarı: Bilgisayarınızın tarih ve saat ayarlarının doğruluğunu kontrol edin! Saatiniz yanlış ise Creddit Core düzgün çalışmayacaktır. </translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong CREDD Core will not work properly.</source>
+        <translation>Uyarı: Bilgisayarınızın tarih ve saat ayarlarının doğruluğunu kontrol edin! Saatiniz yanlış ise CREDD Core düzgün çalışmayacaktır. </translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4597,8 +4597,8 @@ Hoşgeldiniz</translation>
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Creddit Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Creddit Core Developers</translation>
+        <source>Copyright (C) 2015-%i The CREDD Core Developers</source>
+        <translation>Copyright (C) 2015-%i The CREDD Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4717,8 +4717,8 @@ Hoşgeldiniz</translation>
         <translation>Bilgi</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Creddit Core is shutting down.</source>
-        <translation>Sağlama kontrolü başlatımı başarısız. Creddit Core kapatılıyor.</translation>
+        <source>Initialization sanity check failed. CREDD Core is shutting down.</source>
+        <translation>Sağlama kontrolü başlatımı başarısız. CREDD Core kapatılıyor.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -5149,8 +5149,8 @@ Hoşgeldiniz</translation>
         <translation>Cüzdan doğrulanıyor..</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Creddit Core to complete</source>
-        <translation>Cüzdanın tekrar yazılması gerekiyor: tamamlamak için Creddit Core uygulamasını tekrar başlatın.</translation>
+        <source>Wallet needed to be rewritten: restart CREDD Core to complete</source>
+        <translation>Cüzdanın tekrar yazılması gerekiyor: tamamlamak için CREDD Core uygulamasını tekrar başlatın.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

@@ -2,9 +2,9 @@
 
 [Desktop Entry]
 Encoding=UTF-8
-Name=Creddit Core
-Comment=Creddit Core QT test network
-GenericName=CREDD Digital Currency QT client testnet network
+Name=CREDDIT Core
+Comment=CREDDIT Core QT test network
+GenericName=CREDDIT Digital Currency QT client testnet network
 Exec=creddit-core.qt-testnet %u
 Terminal=false
 Type=Application

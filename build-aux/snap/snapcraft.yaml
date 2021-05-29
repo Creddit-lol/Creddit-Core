@@ -1,17 +1,17 @@
 # Copyright (c) 2018-2019 The Ion developers
-# Copyright (c) 2019 The CREDD developers
+# Copyright (c) 2019 The CREDDIT developers
 name: creddit-core
 base: core18
 version: 5.1.99
-summary:   CREDD (Private – Instant – Verified – Transaction)
+summary:   CREDDIT (Private – Instant – Verified – Transaction)
 description: |
-  CREDD is an MIT licensed,
+  CREDDIT is an MIT licensed,
   open source, blockchain-based cryptocurrency with
   ultra fast transactions, low fees, high network decentralization, and
   Zero Knowledge cryptography proofs for industry-leading
   transaction anonymity.
 
-  - [Download](https://creddit.org/wp-content/uploads/2018/10/CREDD-White.pdf) CREDD White Paper PDF
+  - [Download](https://creddit.org/wp-content/uploads/2018/10/CREDDIT-White.pdf) CREDDIT White Paper PDF
 grade: devel
 confinement: strict
 
@@ -106,7 +106,7 @@ parts:
       - fcitx-frontend-qt5
 
   creddit-core:
-    source: https://github.com/CREDD-Project/CREDD
+    source: https://github.com/CREDDIT-Project/CREDDIT
     source-type: git
     source-tag: master
     plugin: nil

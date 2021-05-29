@@ -937,7 +937,7 @@
                      </property>
                      <property name="text">
                       <string>Welcome to
-Creddit Core Wallet</string>
+CREDD Core Wallet</string>
                      </property>
                      <property name="alignment">
                       <set>Qt::AlignCenter</set>

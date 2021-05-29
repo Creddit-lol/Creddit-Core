@@ -4,7 +4,7 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://www.opensource.org/licenses/mit-license.php .
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import CredditTestFramework
 
 from test_framework.messages import (
     CTransaction,
@@ -19,7 +19,7 @@ from test_framework.util import (
 from decimal import Decimal
 from io import BytesIO
 
-class MalleableSigsTest(PivxTestFramework):
+class MalleableSigsTest(CredditTestFramework):
 
     def set_test_params(self):
         self.num_nodes = 1

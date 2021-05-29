@@ -4,7 +4,7 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://www.opensource.org/licenses/mit-license.php .
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import CredditTestFramework
 from test_framework.util import *
 from decimal import Decimal
 
@@ -19,7 +19,7 @@ too_big_memo_str = "This is not an email......." * 19
 no_memo = "f6"
 
 
-class ListReceivedTest (PivxTestFramework):
+class ListReceivedTest (CredditTestFramework):
 
     def set_test_params(self):
         self.num_nodes = 4
