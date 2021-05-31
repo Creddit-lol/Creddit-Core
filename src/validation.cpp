@@ -864,7 +864,7 @@ CAmount GetBlockValue(int nHeight)
 
     if (nHeight < posActivation) return 2469696 * COIN;
     
-    return 0.00001 * COIN;
+    return 10 * COIN;
 }
 
 int64_t GetMasternodePayment()

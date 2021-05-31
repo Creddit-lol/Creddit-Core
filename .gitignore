@@ -150,3 +150,6 @@ ui_*
 #credditd.*
 credditd-new-gui.*
 /cov-int/
+dist/*
+
+CREDD-QT.app*

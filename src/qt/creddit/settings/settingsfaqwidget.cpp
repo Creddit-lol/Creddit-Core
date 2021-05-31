@@ -113,7 +113,7 @@ SettingsFaqWidget::SettingsFaqWidget(CREDDGUI *parent) :
     QString masternodeContent = formatFAQContent(
         formatFAQParagraph(
             tr("A masternode is a computer running a full node CREDD core wallet with a "
-               "requirement of 10,000 CREDD secured collateral to provide extra services "
+               "requirement of 420,690 CREDD secured collateral to provide extra services "
                "to the network and in return, receive a portion of the block reward "
                "regularly. These services include:") +
             formatFAQUnorderedList(
@@ -135,7 +135,7 @@ SettingsFaqWidget::SettingsFaqWidget(CREDDGUI *parent) :
         formatFAQParagraph(
             tr("Requirements:") +
             formatFAQUnorderedList(
-                formatFAQListItem(tr("10,000 CREDD per single Masternode instance")) +
+                formatFAQListItem(tr("420,690 CREDD per single Masternode instance")) +
                 formatFAQListItem(tr("Must be stored in a core wallet")) +
                 formatFAQListItem(tr("Need dedicated IP address")) +
                 formatFAQListItem(tr("Masternode wallet to remain online")))));
@@ -143,7 +143,7 @@ SettingsFaqWidget::SettingsFaqWidget(CREDDGUI *parent) :
 
     QString mNControllerContent = formatFAQContent(
         formatFAQParagraph(
-            tr("A Masternode Controller wallet is where the 10,000 CREDD collateral "
+            tr("A Masternode Controller wallet is where the 420,690 CREDD collateral "
                "can reside during a Controller-Remote masternode setup. It is a wallet "
                "that can activate the remote masternode wallet(s) and allows you to keep "
                "your collateral coins offline while the remote masternode remains online.")));
