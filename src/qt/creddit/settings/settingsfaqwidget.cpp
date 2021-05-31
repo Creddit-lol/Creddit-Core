@@ -92,7 +92,7 @@ SettingsFaqWidget::SettingsFaqWidget(CREDDGUI *parent) :
     QString stakeContent = formatFAQContent(
         formatFAQOrderedList(
             formatFAQListItem(tr("Make sure your wallet is completely synchronized and you are using the latest release.")) +
-            formatFAQListItem(tr("You must have a balance of CREDD with a minimum of 600 confirmations.")) +
+            formatFAQListItem(tr("You must have a balance of CREDD with a minimum of 420 confirmations.")) +
             formatFAQListItem(tr("Your wallet must stay online and be unlocked for staking purposes.")) +
             formatFAQListItem(tr("Once all those steps are followed staking should be enabled."))) +
         formatFAQParagraph(
