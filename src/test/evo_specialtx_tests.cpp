@@ -35,7 +35,7 @@ static ProRegPL GetRandomProRegPayload()
     ProRegPL pl;
     pl.collateralOutpoint.hash = GetRandHash();
     pl.collateralOutpoint.n = InsecureRandBits(2);
-    BOOST_CHECK(Lookup("57.12.210.11:51472", pl.addr, Params().GetDefaultPort(), false));
+    BOOST_CHECK(Lookup("57.12.210.11:42069", pl.addr, Params().GetDefaultPort(), false));
     pl.keyIDOwner = GetRandomKeyID();
     pl.keyIDOperator = GetRandomKeyID();
     pl.keyIDVoting = GetRandomKeyID();
