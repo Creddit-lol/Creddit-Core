@@ -70,7 +70,10 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
  * + Contains no strange transactions
  */
 static Checkpoints::MapCheckpoints mapCheckpoints = {
-    {0, uint256S("0x00000ae704db7fc28902a8e37ece751a8746948bec2b75ff79e42dcba3ae5a3e")}
+    {1800, uint256S("0xcef536fadd6153326e6f77c8c483b092afb4ae2b86449c3cfa482bc52d2f8e02")},
+    {4500, uint256S("0x8e5417bd9c920cbd06698066230165cb8ee8d46597544f1565a0347601f04b55")},
+    {5600, uint256S("0x1c9637f30cc619490df9b7c715f919540b1561ebaca3fec0f4cb9a8fa7a3bbef")},
+    {6900, uint256S("0xf187b33f69d5f63a8a1755e6dab26882dd1c8354b0828b2f318f91a33ccf5eab")}
 };
 
 static const Checkpoints::CCheckpointData data = {
@@ -186,17 +189,17 @@ public:
                 Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
 
         consensus.vUpgrades[Consensus::UPGRADE_ZC].hashActivationBlock =
-                uint256S("0x5b2482eca24caf2a46bb22e0545db7b7037282733faa3a42ec20542509999a64");
+                uint256S("0x1c9637f30cc619490df9b7c715f919540b1561ebaca3fec0f4cb9a8fa7a3bbef"); // block 4500
         consensus.vUpgrades[Consensus::UPGRADE_ZC_V2].hashActivationBlock =
-                uint256S("0x37ea75fe1c9314171cff429a91b25b9f11331076d1c9de50ee4054d61877f8af");
+                uint256S("0xf187b33f69d5f63a8a1755e6dab26882dd1c8354b0828b2f318f91a33ccf5eab");
         consensus.vUpgrades[Consensus::UPGRADE_BIP65].hashActivationBlock =
-                uint256S("0x82629b7a9978f5c7ea3f70a12db92633a7d2e436711500db28b97efd48b1e527");
+                uint256S("0x001");
         consensus.vUpgrades[Consensus::UPGRADE_ZC_PUBLIC].hashActivationBlock =
-                uint256S("0xe2448b76d88d37aba4194ffed1041b680d779919157ddf5cbf423373d7f8078e");
+                uint256S("0x001");
         consensus.vUpgrades[Consensus::UPGRADE_V3_4].hashActivationBlock =
-                uint256S("0x0ef2556e40f3b9f6e02ce611b832e0bbfe7734a8ea751c7b555310ee49b61456");
+                uint256S("0x001");
         consensus.vUpgrades[Consensus::UPGRADE_V4_0].hashActivationBlock =
-                uint256S("0x14e477e597d24549cac5e59d97d32155e6ec2861c1003b42d0566f9bf39b65d5");
+                uint256S("0x001");
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
