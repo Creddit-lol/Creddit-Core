@@ -861,10 +861,33 @@ double ConvertBitsToDouble(unsigned int nBits)
 CAmount GetBlockValue(int nHeight)
 {
     const int posActivation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_POS].nActivationHeight,
-              posV2Activation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight;
+              posV2Activation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight,
+              zcActivation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_ZC].nActivationHeight,
+              zcV2Activation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_ZC_V2].nActivationHeight,
+              bip65Activation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight,
+              zcPublicActivation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_ZC_PUBLIC].nActivationHeight,
+              upgradeV3Activation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_V3_4].nActivationHeight,
+              upgradeV4Activation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_V4_0].nActivationHeight,
+              upgradeV5Activation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_V5_0].nActivationHeight,
+              upgradeV6Activation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_V6_0].nActivationHeight;
+              
 
     if (nHeight < posActivation) return 2469696 * COIN;
-    
+
+    // These are redundant I know, but whoever forks this in the future may use them.
+    if (nHeight < posV2Activation) return 420.69 * COIN;
+    if (nHeight < zcActivation) return 420.69 * COIN;
+    if (nHeight < zcV2Activation) return 420.69 * COIN;
+
+    //
+
+    if (nHeight < bip65Activation) return 6900.420 * COIN;
+    if (nHeight < zcPublicActivation) return 4200.69 * COIN;
+    if (nHeight < upgradeV3Activation) return (4200.69 - 420.69) * COIN;
+    if (nHeight < upgradeV4Activation) return (4200.69 - 696.969) * COIN;
+    if (nHeight < upgradeV5Activation) return 696.969 * COIN;
+    if (nHeight < upgradeV6Activation) return 696.420 * COIN;
+
     return 420.69 * COIN;
 }
 
