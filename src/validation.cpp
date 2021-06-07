@@ -860,7 +860,8 @@ double ConvertBitsToDouble(unsigned int nBits)
 
 CAmount GetBlockValue(int nHeight)
 {
-    const int posActivation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_POS].nActivationHeight;
+    const int posActivation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_POS].nActivationHeight,
+              posV2Activation = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight;
 
     if (nHeight < posActivation) return 2469696 * COIN;
     
